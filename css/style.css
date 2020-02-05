@@ -1,0 +1,22 @@
+.card-tarefa {
+    display: flex; /* deixa os blocos em linha, um do lado do outro */
+    justify-content: space-between; /* separar botão do texto */
+    border: solid 0.5px; /* borda 0.5px feita de linha sólida */
+    border-radius: 10px; /* borda arredondada */
+    padding: 2rem 2rem; /* aumentar o tamanho do card para não ficar no limite do texto, padding com 2 valores fica 1o valor topo e baixo e 2o valor direita e esquerda */
+    box-shadow: 1px 7px 8px -7px; /* faz sombra no card */
+}
+
+footer {
+    position: fixed;
+    width: 100vw; /* forma mais semantica de entender que ele sempre vai estar ocupando todo o tamanho da tela */
+    display: flex;
+    padding: 1rem;
+    justify-content: center;
+    bottom: 0px;
+}
+
+#tarefa-digitada {
+    width: 45%;
+    margin-right: 20px;
+}
